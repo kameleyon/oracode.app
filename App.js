@@ -15,6 +15,15 @@ const App = () => {
         link.href = 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap';
         link.rel = 'stylesheet';
         document.head.appendChild(link);
+        
+        // Add CSS custom properties for consistent font usage
+        const style = document.createElement('style');
+        style.textContent = `
+          * {
+            font-family: 'Montserrat', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Arial', sans-serif !important;
+          }
+        `;
+        document.head.appendChild(style);
       }
       
       await SplashScreen.hideAsync();

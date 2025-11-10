@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Oracle Tarot",
+    "slug": "oracle-tarot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#031b7d"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#031b7d"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "fonts": ["./assets/fonts/Montserrat-Regular.ttf", "./assets/fonts/Montserrat-Bold.ttf"]
+  }
+}
